@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/master.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Task List v2 </title>
+</head>
+<body>
+
+  <header>
+
+<div class="container">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li>asd asfasfd s</li>
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="s12 col">
+        <div class="card" id="main">
+          <div class="card-content">
+            <span class="card-title">Task Title </span>
+              <div class="row">
+                <form id="task-form">
+                  <div class="input-field col s12" >
+                    <input type="text" name="task" id="task">
+                    <label for="task">New Task</label>
+                  </div>
+                  <input type="submit" class="btn btn blue" value="Add Task">
+                </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <h5 id="task-title">Tasks</h5>
+
+            <!-- data filter input -->
+            <div class="input-field col s12" >
+              <input type="text" name="filter" id="filter">
+              <label for="filter">Search</label>
+            </div>
+
+            <ul class="collection">
+              <!-- add Li dynamilcay -->
+            </ul>
+
+            <a href="#" class="clear-tasks btn btn black"> Clear all tasks</a>
+          </div>
+          <!-- End of card action -->
+        </div>
+        <!-- end of card -->
+      </div>
+    </div>
+  </div>
+
+
+<!--
+    <div class="container">
+      <div class="row">
+        <div class="s12 col">
+          <div class="card" id="main">
+            <div class="card-content">
+              <span class="card-title"> Task List</span>
+              <div class="row">
+
+                <form id="task-form" action="#">
+                  <div class="input-field col s12">
+                    <input type="text" name="task" id="task">
+                    <label for="task"> New Task</label>
+                  </div>
+
+
+                  <input type="submit" class="btn btn-blue" value=" Add Task">
+                </form>
+
+              </div>
+            </div>
+
+            <div class="card-action">
+              <h5 id="task-title">Tasks</h5>
+              data filter input
+
+              <div class="input-field col s12">
+                <input type="text" name="filter" id="filter">
+                <label for="filter">Filter Tasks</label>
+              </div>
+              <ul class="collection">
+                Add li dynamics
+              </ul>
+              <a href="#" class="clear-tasks btn black"> Clear Tasks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="js/main.js" charset="utf-8"></script>
+
+</body>
+</html>
